@@ -1,0 +1,64 @@
+.register-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .image-container img {
+      
+  }
+  .form-container {
+    width: 50%;
+  }
+  .user-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    input {
+        border-left: none;
+        border-top: none;
+        border-right: none;
+        padding-left: 10px;
+        height: 50px;
+        margin-bottom: 20px;
+        :focus {
+            outline: none;
+            border-left: none;
+        }
+    }
+    input[type=number]::-webkit-inner-spin-button, 
+    input[type=number]::-webkit-outer-spin-button { 
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        margin: 0; 
+    }
+}
+
+.action-button {
+    width: 100%;
+    background-color: #249c73;
+    text-align: center;
+    color: white;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 35px;
+}
+.d-table {
+    min-width: 300px;
+    min-height: 300px;
+    display: block;
+    width: 1px solid red;
+}
+  
+.d-table ul {
+    list-style-type: none;
+}
+  
+.d-column li {
+    padding: 0 15px;
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    border: none;
+}
